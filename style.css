@@ -186,26 +186,6 @@ body {
     background-color: white;
 }
 
-.specials {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 20px;
-}
-
-@media screen and (max-width: 600px) {
-    .specials {
-        flex-direction: column;
-    }
-    .specials_1 {
-        order: 1;
-    }
-  
-    .specials_2 {
-        order: 2;
-    }
-}
-
 .music_list {
     display: flex;
     margin-left: 2%;
